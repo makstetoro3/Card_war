@@ -15,3 +15,4 @@ class Player:
         self.cards = pg.sprite.Group()
         self.active_cards = [[None] * 4 for _ in range(2)]
         self.land_activ = [True] * 4
+        self.cemetery = pg.sprite.Group()
